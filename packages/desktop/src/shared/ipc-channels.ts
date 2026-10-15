@@ -561,6 +561,7 @@ export interface RequestChannels {
     args: [banner: CreateNewBannerKind];
     result: undefined;
   };
+  'ok:navigator:open-remote': { args: [origin: string]; result: undefined };
   'ok:navigator:open': { args: []; result: undefined };
   'ok:window:open-note': {
     args: [

@@ -674,6 +674,7 @@ const bridge: OkDesktopBridge = {
   },
 
   navigator: {
+    openRemoteWorkspace: (origin) => invoke('ok:navigator:open-remote', origin),
     open: () => invoke('ok:navigator:open'),
   },
 

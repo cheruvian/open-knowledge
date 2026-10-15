@@ -1,7 +1,7 @@
 // oxlint-disable ok/no-physical-direction-utility -- pre-rule backlog — physical margin/padding/inset utilities predate the rule; drain by swapping ml/mr → ms/me, pl/pr → ps/pe, left/right → start/end, then deleting this line. See https://github.com/inkeep/open-knowledge/blob/main/lint-plugins/ok-rules/README.md#no-physical-direction-utility
 
 import { Trans, useLingui } from '@lingui/react/macro';
-import { FileText, Folder, FolderOpenIcon, GitBranch, PlusIcon, XIcon } from 'lucide-react';
+import { FileText, Folder, FolderOpenIcon, GitBranch, Globe, PlusIcon, XIcon } from 'lucide-react';
 import { type ComponentType, lazy, Suspense, useEffect, useState } from 'react';
 import { shouldShowAppMenubar } from '@/components/app-menubar-gate';
 import { Spinner } from '@/components/ui/spinner';
@@ -51,6 +51,7 @@ import { OkIcon } from './icons/ok';
 import { McpConsentDialog } from './McpConsentDialog';
 import { iconForPack } from './PackCardGrid';
 import { basenameOf } from './project-switcher-recents';
+import { RemoteWorkspaceDialog } from './RemoteWorkspaceDialog';
 import { ReportBugDialog } from './ReportBugDialog';
 import { RecentItemContextMenu } from './recent-remove-controls';
 import { SettingsDialogShell } from './settings/SettingsDialogShell';
@@ -100,6 +101,7 @@ export function NavigatorApp({ bridge }: { bridge: OkDesktopBridge }) {
   const [recentsLoadFailed, setRecentsLoadFailed] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [openingLabel, setOpeningLabel] = useState<string | null>(null);
+  const [remoteDialogOpen, setRemoteDialogOpen] = useState(false);
   const [cloneDialogOpen, setCloneDialogOpen] = useState(false);
   const [createDialogOpen, setCreateDialogOpen] = useState(false);
   const [reportBugOrigin, setReportBugOrigin] = useState<OkMenuActionOrigin | null>(null);
@@ -324,6 +326,15 @@ export function NavigatorApp({ bridge }: { bridge: OkDesktopBridge }) {
                 dataTestId="nav-clone"
                 Icon={GithubIcon}
               />
+              {bridge.navigator?.openRemoteWorkspace ? (
+                <NavigatorCard
+                  title={t`Connect to server`}
+                  description={t`Open an existing shared workspace.`}
+                  onClick={() => setRemoteDialogOpen(true)}
+                  dataTestId="nav-connect-server"
+                  Icon={Globe}
+                />
+              ) : null}
             </section>
 
             {}
@@ -389,6 +400,14 @@ export function NavigatorApp({ bridge }: { bridge: OkDesktopBridge }) {
 
       {}
       <ConsentDialog />
+
+      {bridge.navigator?.openRemoteWorkspace ? (
+        <RemoteWorkspaceDialog
+          open={remoteDialogOpen}
+          onOpenChange={setRemoteDialogOpen}
+          connect={bridge.navigator?.openRemoteWorkspace}
+        />
+      ) : null}
 
       <CreateProjectDialog
         open={createDialogOpen}

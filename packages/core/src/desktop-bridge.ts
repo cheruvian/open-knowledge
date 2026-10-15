@@ -1342,6 +1342,7 @@ export interface OkDesktopBridge {
   };
 
   navigator: {
+    openRemoteWorkspace?(origin: string): Promise<void>;
     open(): Promise<void>;
   };
 

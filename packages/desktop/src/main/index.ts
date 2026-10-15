@@ -438,6 +438,10 @@ import {
   setPreferredWindowVibrancy,
   type VibrancyMaterial,
 } from './reduced-transparency-handler.ts';
+import {
+  installRemoteWorkspaceMenu,
+  openRemoteWorkspaceWindow,
+} from './remote-workspace-window.ts';
 import { removeGitFolder } from './remove-git-folder.ts';
 import { attachRendererConsoleCapture } from './renderer-console-capture.ts';
 import { createRendererReadySink, type RendererReadySink } from './renderer-ready-sink.ts';
@@ -2514,6 +2518,7 @@ async function runMenuDispatchCommand(
 }
 
 async function runApplicationMenuRefresh(): Promise<void> {
+  if (installRemoteWorkspaceMenu()) return;
   const focusedWindow = BrowserWindow.getFocusedWindow();
   const focusedWindowId = focusedWindow?.id ?? null;
   const editorViewMenuState = editorViewMenuStates.current(focusedWindowId);
@@ -5479,6 +5484,18 @@ function registerIpcHandlers() {
     return undefined;
   });
 
+  handle('ok:navigator:open-remote', async (event, origin) => {
+    if (
+      !navigatorWindow ||
+      event.sender !== navigatorWindow.webContents ||
+      event.senderFrame !== event.sender.mainFrame
+    ) {
+      throw new Error('Remote connections can only be opened from the project navigator.');
+    }
+    await openRemoteWorkspaceWindow(origin, refreshApplicationMenu);
+    return undefined;
+  });
+
   handle('ok:navigator:open', async () => {
     openNavigator();
     return undefined;
@@ -6311,6 +6328,7 @@ function bootPrimaryInstance(): void {
   powerMonitor.on('resume', () => crashDetection?.noteResume());
   app.on('browser-window-focus', (_event, win) => {
     lastFocusedWindow = win;
+    refreshApplicationMenu();
   });
   app.on('browser-window-created', (_event, win) => {
     desktopProcessObservability?.observeWindow(win);

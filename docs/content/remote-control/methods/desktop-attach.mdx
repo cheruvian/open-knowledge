@@ -1,0 +1,29 @@
+---
+title: Connect Desktop to an existing server
+---
+
+From the desktop project navigator, choose **Connect to server** and enter the
+HTTPS origin of an existing OpenKnowledge server. Keep any required private
+network connection active. The server must already be configured for that exact
+external origin and report ready.
+
+This opens the server's own editor in a persistent native window. It creates no
+local checkout, starts no additional server, and does not synchronize a local
+folder. Other clients connected to that server use its existing collaboration
+channel. The server owns Git sync, file storage, and agent configuration.
+
+The window retains browser storage between launches for document recovery.
+Complete offline browsing is not guaranteed. The last successfully connected
+origin is remembered in the navigator. Local files and terminals are unavailable
+in this connection; external agent tools need their own configured remote access.
+
+Remote pages receive no desktop preload or Node.js bridge. Only HTTPS origins
+without embedded credentials, paths, query strings, or fragments are accepted.
+Top-level navigation stays within the selected origin. Same-origin reports can
+open in additional isolated windows; cross-origin popups are blocked. A certificate error or an unready server fails the connection without
+starting or modifying anything on the server. Stop the server through its normal
+operator workflow, not by closing the desktop window.
+
+The existing desktop integration setup remains separate. Leave agent/MCP setup
+options unchecked when your environment manages integrations through another
+policy or tool.
