@@ -37,6 +37,7 @@ const LIBRARY_NATIVE = 'app.asar.unpacked/node_modules/@inkeep/open-knowledge/di
 const SOUND_ASAR = [
   'package.json',
   'out/main/index.js',
+  'node_modules/yjs/package.json',
   'node_modules/@inkeep/open-knowledge-server/dist/index.mjs',
   'node_modules/@inkeep/open-knowledge-core/dist/index.mjs',
 ];
@@ -87,6 +88,7 @@ describe('findMissingBundlePaths', () => {
 
   test.each([
     ['app.asar/package.json', 'app.asar'],
+    ['app.asar/node_modules/yjs/package.json', 'collaboration runtime'],
     [`${LIBRARY_NATIVE}/index.js`, "main process's native-config loader"],
     [`${LIBRARY_NATIVE}/native-config.darwin-arm64.node`, "main process's native-config addon"],
     ['cli/dist/native/index.js', "bundled CLI's native-config loader"],

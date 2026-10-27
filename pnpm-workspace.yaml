@@ -17,6 +17,7 @@ packageExtensions:
       zod: '^3.25.0 || ^4.0.0'
 
 engineStrict: true
+enableGlobalVirtualStore: false
 
 # Corepack selects packageManager. Avoid a second pnpm bootstrap and its env
 # lockfile document, which single-document dependency scanners cannot read.

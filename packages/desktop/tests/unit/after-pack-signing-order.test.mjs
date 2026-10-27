@@ -94,7 +94,10 @@ function packedApp() {
     mkdirSync(dirname(join(resources, file)), { recursive: true });
     writeFileSync(join(resources, file), 'x');
   }
-  writeHeaderOnlyAsar(join(resources, 'app.asar'), ['package.json']);
+  writeHeaderOnlyAsar(join(resources, 'app.asar'), [
+    'package.json',
+    'node_modules/yjs/package.json',
+  ]);
   return { appOutDir, app, serverContents };
 }
 

@@ -32,6 +32,10 @@ export const FORBIDDEN_BUNDLE_PATHS = [
 
 export const REQUIRED_BUNDLE_PATHS = [
   {
+    pattern: /^app\.asar\/node_modules\/yjs\/package\.json$/,
+    reason: 'the collaboration runtime required during desktop startup',
+  },
+  {
     pattern: /^app\.asar\/package\.json$/,
     reason: 'app.asar with its package.json',
   },
