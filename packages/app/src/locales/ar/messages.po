@@ -2558,11 +2558,17 @@ msgstr "اربط OpenKnowledge بالأدوات الأخرى التي تستخد
 msgid "Connect this project to GitHub to share."
 msgstr "اربط هذا المشروع بـ GitHub للمشاركة."
 
+msgid "Connect to existing server"
+msgstr "الاتصال بخادم موجود"
+
 msgid "Connect to GitHub"
 msgstr "الاتصال بـ GitHub"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "الاتصال بخادم GitHub Enterprise"
+
+msgid "Connect to server"
+msgstr "الاتصال بالخادم"
 
 msgid "Connect tools"
 msgstr "ربط الأدوات"
@@ -2781,6 +2787,9 @@ msgstr "تعذّر تصنيف الدمج — حاول مرة أخرى."
 
 msgid "Could not complete delete"
 msgstr "تعذّر إتمام الحذف"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "تعذر الاتصال. استخدم عنوان أصل HTTPS للخادم، وتحقق من اتصال الشبكة الخاصة ومن جاهزية الخادم."
 
 msgid "Could not construct share URL."
 msgstr "تعذّر إنشاء رابط المشاركة."
@@ -7161,6 +7170,9 @@ msgstr "فتح الوكلاء"
 msgid "Open an existing project folder from disk."
 msgstr "افتح مجلد مشروع موجودًا من القرص."
 
+msgid "Open an existing shared workspace."
+msgstr "فتح مساحة عمل مشتركة موجودة."
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "افتح مؤلف موجّه «اسأل الذكاء الاصطناعي» السفلي وركّز عليه."
 
@@ -7280,6 +7292,9 @@ msgstr "فتح الرابط في تبويب جديد"
 
 msgid "Open Navigator"
 msgstr "فتح المتصفح"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "افتح مساحة عمل مشتركة دون استنساخ الملفات أو بدء خادم آخر. اتصل فقط بخادم تثق به."
 
 msgid "Open or close visual-editor find."
 msgstr "افتح بحث المحرر المرئي أو أغلقه."
@@ -9283,6 +9298,9 @@ msgstr "خطأ في الخادم: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "خطأ في الخادم: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "عنوان HTTPS للخادم"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "أعاد الخادم استجابة نسخ مشوّهة."
 
@@ -10551,6 +10569,9 @@ msgstr "ملف المخطط غير موجود أو فشل تحميله — إض�
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "تعذّر على الخادم قراءة حالة المزامنة لهذا المشروع، لذا أُخفيت خيارات المزامنة. ستظهر هنا فور تحميل حالة المزامنة؛ كما يؤدي إغلاق الإعدادات وفتحها مجددًا إلى إعادة المحاولة."
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "يدير الخادم الملفات وإعدادات الوكلاء. لا تتوفر الطرفيات المحلية أو إمكانية الوصول إلى نظام الملفات المحلي عبر هذا الاتصال."
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "استجاب الخادم لكن server.lock لا يحتوي على منفذ بعد"

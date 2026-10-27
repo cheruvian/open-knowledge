@@ -143,7 +143,7 @@ overrides:
   react-dom: 19.2.5
   react-lite-youtube-embed: 3.5.1
 
-packageExtensionsChecksum: sha256-dqn6jwuY3uAC75dMPBWd+w9GVkhNUrdfgRsY6AOXEhY=
+packageExtensionsChecksum: sha256-ziCeVAPPNvuF4QaLHA6Xy+TFQ3oEvBA9YFuW/kw5bLg=
 
 patchedDependencies:
   '@handlewithcare/remark-prosemirror@0.1.5': a6b60cc8640e04973be2c8123e0dbd73156b54388a57cd2b76191c2fd8ac2865
@@ -13307,6 +13307,7 @@ snapshots:
 
   '@excalidraw/excalidraw@0.18.0-abeeaeb(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)':
     dependencies:
+      '@excalidraw/fractional-indexing': 0.18.0-abeeaeb
       '@braintree/sanitize-url': 6.0.2
       '@codemirror/commands': 6.10.4
       '@codemirror/language': 6.12.4
@@ -18068,6 +18069,7 @@ snapshots:
 
   codemirror-lang-mermaid@0.5.0:
     dependencies:
+      '@lezer/common': 1.5.2
       '@codemirror/language': 6.12.4
       '@lezer/highlight': 1.2.3
       '@lezer/lr': 1.4.10

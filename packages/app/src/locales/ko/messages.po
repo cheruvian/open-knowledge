@@ -2558,11 +2558,17 @@ msgstr "OpenKnowledge를 사용하는 다른 도구에 연결합니다."
 msgid "Connect this project to GitHub to share."
 msgstr "공유하려면 이 프로젝트를 GitHub에 연결합니다."
 
+msgid "Connect to existing server"
+msgstr "기존 서버에 연결"
+
 msgid "Connect to GitHub"
 msgstr "GitHub에 연결"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "GitHub Enterprise Server에 연결"
+
+msgid "Connect to server"
+msgstr "서버에 연결"
 
 msgid "Connect tools"
 msgstr "도구 연결"
@@ -2781,6 +2787,9 @@ msgstr "병합을 분류할 수 없습니다. 다시 시도하세요."
 
 msgid "Could not complete delete"
 msgstr "삭제를 완료하지 못했습니다"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "연결할 수 없습니다. 서버의 HTTPS 출처 주소를 사용하고 사설 네트워크 연결과 서버 준비 상태를 확인하세요."
 
 msgid "Could not construct share URL."
 msgstr "공유 URL을 만들 수 없습니다."
@@ -7161,6 +7170,9 @@ msgstr "에이전트 열기"
 msgid "Open an existing project folder from disk."
 msgstr "디스크에서 기존 프로젝트 폴더를 엽니다."
 
+msgid "Open an existing shared workspace."
+msgstr "기존 공유 작업 공간을 엽니다."
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "하단의 AI에게 묻기 프롬프트 작성기를 열고 포커스를 둡니다."
 
@@ -7280,6 +7292,9 @@ msgstr "새 탭에서 링크 열기"
 
 msgid "Open Navigator"
 msgstr "탐색기 열기"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "파일을 복제하거나 다른 서버를 시작하지 않고 공유 작업 공간을 엽니다. 신뢰하는 서버에만 연결하세요."
 
 msgid "Open or close visual-editor find."
 msgstr "비주얼 편집기 찾기를 열거나 닫습니다."
@@ -9283,6 +9298,9 @@ msgstr "서버 오류: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "서버 오류: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "서버 HTTPS 주소"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "서버에서 잘못된 중복 응답을 반환했습니다."
 
@@ -10551,6 +10569,9 @@ msgstr "스키마 파일이 없거나 불러오지 못했습니다. 필드를 �
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "서버가 이 프로젝트의 동기화 상태를 읽을 수 없어 동기화 옵션을 숨겼습니다. 동기화 상태를 불러오는 즉시 여기에 표시되며, 설정을 닫았다가 다시 열어도 다시 시도합니다."
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "서버에서 파일과 에이전트 설정을 관리합니다. 이 연결에서는 로컬 터미널과 로컬 파일 시스템에 접근할 수 없습니다."
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "서버 응답 완료. server.lock에 포트 없음"

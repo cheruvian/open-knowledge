@@ -2558,11 +2558,17 @@ msgstr "Connect OpenKnowledge to other tools you use."
 msgid "Connect this project to GitHub to share."
 msgstr "Connect this project to GitHub to share."
 
+msgid "Connect to existing server"
+msgstr "Connect to existing server"
+
 msgid "Connect to GitHub"
 msgstr "Connect to GitHub"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "Connect to GitHub Enterprise Server"
+
+msgid "Connect to server"
+msgstr "Connect to server"
 
 msgid "Connect tools"
 msgstr "Connect tools"
@@ -2781,6 +2787,9 @@ msgstr "Could not classify the merge — try again."
 
 msgid "Could not complete delete"
 msgstr "Could not complete delete"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
 
 msgid "Could not construct share URL."
 msgstr "Could not construct share URL."
@@ -7161,6 +7170,9 @@ msgstr "Open agents"
 msgid "Open an existing project folder from disk."
 msgstr "Open an existing project folder from disk."
 
+msgid "Open an existing shared workspace."
+msgstr "Open an existing shared workspace."
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "Open and focus the bottom Ask AI prompt composer."
 
@@ -7280,6 +7292,9 @@ msgstr "Open link in new tab"
 
 msgid "Open Navigator"
 msgstr "Open Navigator"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
 
 msgid "Open or close visual-editor find."
 msgstr "Open or close visual-editor find."
@@ -9283,6 +9298,9 @@ msgstr "Server error: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "Server error: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "Server HTTPS address"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "Server returned a malformed duplicate response."
 
@@ -10551,6 +10569,9 @@ msgstr "The schema file does not exist or failed to load — adding a field crea
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "the server responded but server.lock has no port yet"

@@ -2558,11 +2558,17 @@ msgstr "把 OpenKnowledge 和你用的其他工具連接起來。"
 msgid "Connect this project to GitHub to share."
 msgstr "把這個專案連接到 GitHub 才能分享。"
 
+msgid "Connect to existing server"
+msgstr "連線至現有伺服器"
+
 msgid "Connect to GitHub"
 msgstr "連接到 GitHub"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "連接到 GitHub Enterprise Server"
+
+msgid "Connect to server"
+msgstr "連線至伺服器"
 
 msgid "Connect tools"
 msgstr "連接工具"
@@ -2781,6 +2787,9 @@ msgstr "無法對合併進行分類，請再試一次。"
 
 msgid "Could not complete delete"
 msgstr "無法完成刪除"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "無法連線。請使用伺服器的 HTTPS 來源位址，檢查私人網路連線，並確認伺服器已就緒。"
 
 msgid "Could not construct share URL."
 msgstr "無法組出分享 URL。"
@@ -7161,6 +7170,9 @@ msgstr "開啟智慧代理"
 msgid "Open an existing project folder from disk."
 msgstr "從磁碟開啟一個既有的專案資料夾。"
 
+msgid "Open an existing shared workspace."
+msgstr "開啟現有的共用工作區。"
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "開啟並聚焦底部的「問 AI」提示輸入框。"
 
@@ -7280,6 +7292,9 @@ msgstr "在新分頁中開啟連結"
 
 msgid "Open Navigator"
 msgstr "開啟導覽器"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "無需複製檔案或啟動其他伺服器即可開啟共用工作區。請僅連線至您信任的伺服器。"
 
 msgid "Open or close visual-editor find."
 msgstr "開啟或關閉視覺化編輯器的尋找。"
@@ -9283,6 +9298,9 @@ msgstr "伺服器錯誤：{status}"
 msgid "Server error: {status} {statusText}"
 msgstr "伺服器錯誤：{status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "伺服器 HTTPS 位址"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "伺服器回傳的複本回應格式錯誤。"
 
@@ -10551,6 +10569,9 @@ msgstr "結構描述檔案不存在或載入失敗——新增欄位就會建立
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "伺服器無法讀取此專案的同步狀態，因此已隱藏同步選項。同步狀態一載入完成，選項就會顯示在這裡；關閉並重新開啟設定也會重試。"
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "檔案和代理程式設定由伺服器管理。此連線不支援本機終端機和本機檔案系統存取。"
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "伺服器有回應，但 server.lock 裡還沒有連接埠"

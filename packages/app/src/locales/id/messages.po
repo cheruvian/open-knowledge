@@ -2554,11 +2554,17 @@ msgstr "Hubungkan OpenKnowledge dengan alat lain yang Anda pakai."
 msgid "Connect this project to GitHub to share."
 msgstr "Hubungkan proyek ini ke GitHub untuk membagikannya."
 
+msgid "Connect to existing server"
+msgstr "Hubungkan ke server yang ada"
+
 msgid "Connect to GitHub"
 msgstr "Hubungkan ke GitHub"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "Hubungkan ke GitHub Enterprise Server"
+
+msgid "Connect to server"
+msgstr "Hubungkan ke server"
 
 msgid "Connect tools"
 msgstr "Hubungkan alat"
@@ -2777,6 +2783,9 @@ msgstr "Penggabungan tidak dapat diklasifikasikan — coba lagi."
 
 msgid "Could not complete delete"
 msgstr "Penghapusan tidak dapat diselesaikan"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "Tidak dapat terhubung. Gunakan origin HTTPS server, periksa koneksi jaringan pribadi Anda, dan pastikan server sudah siap."
 
 msgid "Could not construct share URL."
 msgstr "URL berbagi tidak dapat disusun."
@@ -7157,6 +7166,9 @@ msgstr "Buka agen"
 msgid "Open an existing project folder from disk."
 msgstr "Membuka folder proyek yang sudah ada dari disk."
 
+msgid "Open an existing shared workspace."
+msgstr "Buka ruang kerja bersama yang sudah ada."
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "Membuka dan memfokuskan penyusun prompt Tanya AI di bawah."
 
@@ -7276,6 +7288,9 @@ msgstr "Buka tautan di tab baru"
 
 msgid "Open Navigator"
 msgstr "Buka Navigator"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "Buka ruang kerja bersama tanpa mengkloning file atau memulai server lain. Hubungkan hanya ke server yang Anda percayai."
 
 msgid "Open or close visual-editor find."
 msgstr "Membuka atau menutup pencarian penyunting visual."
@@ -9279,6 +9294,9 @@ msgstr "Galat server: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "Galat server: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "Alamat HTTPS server"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "Server mengembalikan respons duplikasi yang salah bentuk."
 
@@ -10547,6 +10565,9 @@ msgstr "Berkas skemanya tidak ada atau gagal dimuat — menambahkan sebuah bidan
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "Server tidak dapat membaca status sinkronisasi proyek ini, jadi opsi sinkronisasi disembunyikan. Opsi akan muncul di sini begitu status sinkronisasi dimuat; menutup lalu membuka kembali Pengaturan juga akan mencoba lagi."
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "Server mengelola file dan konfigurasi agen. Terminal lokal dan akses sistem file lokal tidak tersedia dalam koneksi ini."
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "server merespons tetapi server.lock belum memiliki port"

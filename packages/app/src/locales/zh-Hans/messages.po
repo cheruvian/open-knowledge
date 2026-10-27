@@ -2558,11 +2558,17 @@ msgstr "把 OpenKnowledge 与你使用的其他工具连接起来。"
 msgid "Connect this project to GitHub to share."
 msgstr "把这个项目连接到 GitHub 才能共享。"
 
+msgid "Connect to existing server"
+msgstr "连接到现有服务器"
+
 msgid "Connect to GitHub"
 msgstr "连接到 GitHub"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "连接到 GitHub Enterprise Server"
+
+msgid "Connect to server"
+msgstr "连接到服务器"
 
 msgid "Connect tools"
 msgstr "连接工具"
@@ -2781,6 +2787,9 @@ msgstr "无法对合并进行分类，请重试。"
 
 msgid "Could not complete delete"
 msgstr "无法完成删除"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "无法连接。请使用服务器的 HTTPS 源地址，检查专用网络连接，并确认服务器已就绪。"
 
 msgid "Could not construct share URL."
 msgstr "无法构建共享 URL。"
@@ -7161,6 +7170,9 @@ msgstr "打开智能体"
 msgid "Open an existing project folder from disk."
 msgstr "从磁盘打开一个已有的项目文件夹。"
 
+msgid "Open an existing shared workspace."
+msgstr "打开现有的共享工作区。"
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "打开并聚焦底部的「问 AI」提示词输入框。"
 
@@ -7280,6 +7292,9 @@ msgstr "在新标签页中打开链接"
 
 msgid "Open Navigator"
 msgstr "打开导航器"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "无需克隆文件或启动其他服务器即可打开共享工作区。请仅连接到您信任的服务器。"
 
 msgid "Open or close visual-editor find."
 msgstr "打开或关闭可视化编辑器的查找。"
@@ -9283,6 +9298,9 @@ msgstr "服务器错误：{status}"
 msgid "Server error: {status} {statusText}"
 msgstr "服务器错误：{status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "服务器 HTTPS 地址"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "服务器返回的副本响应格式错误。"
 
@@ -10551,6 +10569,9 @@ msgstr "架构文件不存在或加载失败——添加字段会自动创建它
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "服务器无法读取此项目的同步状态，因此已隐藏同步选项。同步状态一加载完成，选项就会显示在这里；关闭并重新打开设置也会重试。"
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "文件和智能体配置由服务器管理。此连接不支持本地终端和本地文件系统访问。"
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "服务器有响应，但 server.lock 中还没有端口"

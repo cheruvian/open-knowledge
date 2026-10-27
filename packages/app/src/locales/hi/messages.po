@@ -2554,11 +2554,17 @@ msgstr "OpenKnowledge को अपने उपयोग के अन्य �
 msgid "Connect this project to GitHub to share."
 msgstr "साझा करने के लिए इस प्रोजेक्ट को GitHub से जोड़ें।"
 
+msgid "Connect to existing server"
+msgstr "मौजूदा सर्वर से कनेक्ट करें"
+
 msgid "Connect to GitHub"
 msgstr "GitHub से जोड़ें"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "GitHub Enterprise Server से जोड़ें"
+
+msgid "Connect to server"
+msgstr "सर्वर से कनेक्ट करें"
 
 msgid "Connect tools"
 msgstr "टूल जोड़ें"
@@ -2777,6 +2783,9 @@ msgstr "मर्ज को वर्गीकृत नहीं किया �
 
 msgid "Could not complete delete"
 msgstr "विलोपन पूरा नहीं हो सका"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "कनेक्ट नहीं हो सका। सर्वर के HTTPS मूल पते का उपयोग करें, निजी नेटवर्क कनेक्शन जाँचें और पुष्टि करें कि सर्वर तैयार है।"
 
 msgid "Could not construct share URL."
 msgstr "साझा URL नहीं बनाया जा सका।"
@@ -7157,6 +7166,9 @@ msgstr "एजेंट खोलें"
 msgid "Open an existing project folder from disk."
 msgstr "डिस्क से कोई मौजूदा प्रोजेक्ट फ़ोल्डर खोलें।"
 
+msgid "Open an existing shared workspace."
+msgstr "मौजूदा साझा कार्यक्षेत्र खोलें।"
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "नीचे वाली Ask AI प्रॉम्प्ट लेखन-पट्टी खोलें और उस पर फ़ोकस करें।"
 
@@ -7276,6 +7288,9 @@ msgstr "लिंक नए टैब में खोलें"
 
 msgid "Open Navigator"
 msgstr "Navigator खोलें"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "फ़ाइलों को क्लोन किए या दूसरा सर्वर शुरू किए बिना साझा कार्यक्षेत्र खोलें। केवल विश्वसनीय सर्वर से कनेक्ट करें।"
 
 msgid "Open or close visual-editor find."
 msgstr "दृश्य-संपादक की खोज खोलें या बंद करें।"
@@ -9279,6 +9294,9 @@ msgstr "सर्वर त्रुटि: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "सर्वर त्रुटि: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "सर्वर का HTTPS पता"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "सर्वर ने गलत प्रारूप वाली डुप्लिकेट प्रतिक्रिया लौटाई।"
 
@@ -10547,6 +10565,9 @@ msgstr "स्कीमा फ़ाइल मौजूद नहीं है �
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "सर्वर इस प्रोजेक्ट की सिंक स्थिति नहीं पढ़ सका, इसलिए सिंक विकल्प छिपा दिए गए हैं। सिंक स्थिति लोड होते ही वे यहाँ दिखेंगे; सेटिंग बंद करके दोबारा खोलने से भी फिर से कोशिश होती है।"
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "फ़ाइलें और एजेंट कॉन्फ़िगरेशन सर्वर पर प्रबंधित होते हैं। इस कनेक्शन में स्थानीय टर्मिनल और स्थानीय फ़ाइल सिस्टम की पहुँच उपलब्ध नहीं है।"
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "सर्वर ने जवाब दिया लेकिन server.lock में अभी कोई पोर्ट नहीं है"

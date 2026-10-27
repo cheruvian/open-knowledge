@@ -27,3 +27,22 @@ operator workflow, not by closing the desktop window.
 The existing desktop integration setup remains separate. Leave agent/MCP setup
 options unchecked when your environment manages integrations through another
 policy or tool.
+
+## Install a local macOS Beta build
+
+The Beta app has a separate application identity and settings from the stable
+app. Connecting to a server does not migrate or upload your local projects.
+
+For a private test build, verify the DMG's SHA-256 checksum against the build
+receipt before opening it. Copy **OpenKnowledge Beta** into Applications. If
+macOS blocks the app because the developer cannot be verified, use **System
+Settings → Privacy & Security → Open Anyway** for that app.
+
+An ad-hoc signature verifies bundle integrity but does not establish an Apple
+Developer identity or satisfy Gatekeeper. A build intended for normal downloaded
+installation requires a Developer ID Application certificate and a notarized,
+stapled ticket. Build and test unsigned packages with `build:mac:unsigned`; do not
+describe them as notarized or disable Gatekeeper globally.
+
+Keep automatic updates disabled in a private fork until its update feed publishes
+that fork. An upstream update can replace the remote-connection feature.

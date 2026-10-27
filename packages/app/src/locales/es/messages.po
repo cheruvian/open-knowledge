@@ -2558,11 +2558,17 @@ msgstr "Conecta OpenKnowledge con las demás herramientas que usas."
 msgid "Connect this project to GitHub to share."
 msgstr "Conecta este proyecto a GitHub para compartirlo."
 
+msgid "Connect to existing server"
+msgstr "Conectar a un servidor existente"
+
 msgid "Connect to GitHub"
 msgstr "Conectar con GitHub"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "Conectar con GitHub Enterprise Server"
+
+msgid "Connect to server"
+msgstr "Conectar al servidor"
 
 msgid "Connect tools"
 msgstr "Conectar herramientas"
@@ -2781,6 +2787,9 @@ msgstr "No se pudo clasificar la fusión. Inténtalo de nuevo."
 
 msgid "Could not complete delete"
 msgstr "No se pudo completar la eliminación"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "No se pudo conectar. Usa el origen HTTPS del servidor, comprueba tu conexión a la red privada y confirma que el servidor esté listo."
 
 msgid "Could not construct share URL."
 msgstr "No se pudo construir la URL para compartir."
@@ -7161,6 +7170,9 @@ msgstr "Abrir agentes"
 msgid "Open an existing project folder from disk."
 msgstr "Abre desde el disco una carpeta de proyecto existente."
 
+msgid "Open an existing shared workspace."
+msgstr "Abrir un espacio de trabajo compartido existente."
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "Abre y enfoca el compositor de prompts de Preguntar a la IA de abajo."
 
@@ -7280,6 +7292,9 @@ msgstr "Abrir el enlace en una pestaña nueva"
 
 msgid "Open Navigator"
 msgstr "Abrir el Navegador"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "Abre un espacio de trabajo compartido sin clonar archivos ni iniciar otro servidor. Conéctate solo a un servidor de confianza."
 
 msgid "Open or close visual-editor find."
 msgstr "Abre o cierra la búsqueda del editor visual."
@@ -9283,6 +9298,9 @@ msgstr "Error del servidor: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "Error del servidor: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "Dirección HTTPS del servidor"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "El servidor devolvió una respuesta de duplicación con formato incorrecto."
 
@@ -10551,6 +10569,9 @@ msgstr "El archivo de esquema no existe o no se pudo cargar; al añadir un campo
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "El servidor no pudo leer el estado de sincronización de este proyecto, así que las opciones de sincronización están ocultas. Aparecerán aquí en cuanto se cargue el estado de sincronización; cerrar y volver a abrir Ajustes también lo reintenta."
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "El servidor gestiona los archivos y la configuración de los agentes. Esta conexión no permite usar terminales locales ni acceder al sistema de archivos local."
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "el servidor respondió pero server.lock aún no tiene puerto"

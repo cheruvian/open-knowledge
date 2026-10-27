@@ -2554,11 +2554,17 @@ msgstr "OpenKnowledge-কে আপনার ব্যবহৃত অন্য 
 msgid "Connect this project to GitHub to share."
 msgstr "ভাগ করতে এই প্রকল্পটি GitHub-এর সঙ্গে যুক্ত করুন।"
 
+msgid "Connect to existing server"
+msgstr "বিদ্যমান সার্ভারে সংযোগ করুন"
+
 msgid "Connect to GitHub"
 msgstr "GitHub-এর সঙ্গে যুক্ত করুন"
 
 msgid "Connect to GitHub Enterprise Server"
 msgstr "GitHub Enterprise Server-এর সঙ্গে যুক্ত করুন"
+
+msgid "Connect to server"
+msgstr "সার্ভারে সংযোগ করুন"
 
 msgid "Connect tools"
 msgstr "টুল যুক্ত করুন"
@@ -2777,6 +2783,9 @@ msgstr "মার্জটি শ্রেণিবদ্ধ করা যায
 
 msgid "Could not complete delete"
 msgstr "মুছে ফেলা সম্পূর্ণ করা যায়নি"
+
+msgid "Could not connect. Use the server's HTTPS origin, check your private-network connection, and confirm the server is ready."
+msgstr "সংযোগ করা যায়নি। সার্ভারের HTTPS মূল ঠিকানা ব্যবহার করুন, ব্যক্তিগত নেটওয়ার্ক সংযোগ পরীক্ষা করুন এবং সার্ভার প্রস্তুত আছে কি না নিশ্চিত করুন।"
 
 msgid "Could not construct share URL."
 msgstr "শেয়ার URL তৈরি করা যায়নি।"
@@ -7157,6 +7166,9 @@ msgstr "এজেন্ট খুলুন"
 msgid "Open an existing project folder from disk."
 msgstr "ডিস্ক থেকে একটি বিদ্যমান প্রকল্প ফোল্ডার খুলুন।"
 
+msgid "Open an existing shared workspace."
+msgstr "বিদ্যমান শেয়ার করা কর্মক্ষেত্র খুলুন।"
+
 msgid "Open and focus the bottom Ask AI prompt composer."
 msgstr "নিচের Ask AI প্রম্পট রচনাপট খুলুন ও তাতে ফোকাস করুন।"
 
@@ -7276,6 +7288,9 @@ msgstr "লিংক নতুন ট্যাবে খুলুন"
 
 msgid "Open Navigator"
 msgstr "Navigator খুলুন"
+
+msgid "Open one shared workspace without cloning files or starting another server. Connect only to a server you trust."
+msgstr "ফাইল ক্লোন বা অন্য সার্ভার চালু না করেই একটি শেয়ার করা কর্মক্ষেত্র খুলুন। কেবল বিশ্বস্ত সার্ভারে সংযোগ করুন।"
 
 msgid "Open or close visual-editor find."
 msgstr "দৃশ্য-সম্পাদকের খোঁজা খুলুন বা বন্ধ করুন।"
@@ -9279,6 +9294,9 @@ msgstr "সার্ভার ত্রুটি: {status}"
 msgid "Server error: {status} {statusText}"
 msgstr "সার্ভার ত্রুটি: {status} {statusText}"
 
+msgid "Server HTTPS address"
+msgstr "সার্ভারের HTTPS ঠিকানা"
+
 msgid "Server returned a malformed duplicate response."
 msgstr "সার্ভার একটি ত্রুটিপূর্ণ গঠনের ডুপ্লিকেট প্রতিক্রিয়া ফেরত দিয়েছে।"
 
@@ -10547,6 +10565,9 @@ msgstr "স্কিমা ফাইলটি নেই বা লোড কর�
 
 msgid "The server couldn't read this project's sync status, so sync options are hidden. They appear here as soon as the sync status loads; closing and reopening Settings also retries."
 msgstr "সার্ভার এই প্রকল্পের সিঙ্ক অবস্থা পড়তে পারেনি, তাই সিঙ্কের বিকল্পগুলো লুকানো আছে। সিঙ্কের অবস্থা লোড হওয়ামাত্র সেগুলো এখানে দেখা যাবে; সেটিং বন্ধ করে আবার খুললেও আবার চেষ্টা হয়।"
+
+msgid "The server owns the files and agent configuration. Local terminals and filesystem access are unavailable in this connection."
+msgstr "ফাইল ও এজেন্ট কনফিগারেশন সার্ভারে পরিচালিত হয়। এই সংযোগে স্থানীয় টার্মিনাল ও স্থানীয় ফাইল সিস্টেমে প্রবেশাধিকার পাওয়া যায় না।"
 
 msgid "the server responded but server.lock has no port yet"
 msgstr "সার্ভার সাড়া দিয়েছে কিন্তু server.lock-এ এখনো কোনো পোর্ট নেই"
