@@ -97,6 +97,7 @@ function packedApp() {
   writeHeaderOnlyAsar(join(resources, 'app.asar'), [
     'package.json',
     'node_modules/yjs/package.json',
+    'node_modules/@inkeep/open-knowledge-core/dist/index.mjs',
   ]);
   return { appOutDir, app, serverContents };
 }

@@ -88,6 +88,7 @@ describe('findMissingBundlePaths', () => {
 
   test.each([
     ['app.asar/package.json', 'app.asar'],
+    ['app.asar/node_modules/@inkeep/open-knowledge-core/dist/index.mjs', 'shared core runtime'],
     ['app.asar/node_modules/yjs/package.json', 'collaboration runtime'],
     [`${LIBRARY_NATIVE}/index.js`, "main process's native-config loader"],
     [`${LIBRARY_NATIVE}/native-config.darwin-arm64.node`, "main process's native-config addon"],
