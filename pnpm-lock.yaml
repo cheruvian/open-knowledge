@@ -143,7 +143,7 @@ overrides:
   react-dom: 19.2.5
   react-lite-youtube-embed: 3.5.1
 
-packageExtensionsChecksum: sha256-ziCeVAPPNvuF4QaLHA6Xy+TFQ3oEvBA9YFuW/kw5bLg=
+packageExtensionsChecksum: sha256-0Az/rl8eWEjPs3d1NlgNSMk4D9pXX9O3+u5BI33Eups=
 
 patchedDependencies:
   '@handlewithcare/remark-prosemirror@0.1.5': a6b60cc8640e04973be2c8123e0dbd73156b54388a57cd2b76191c2fd8ac2865
@@ -13297,6 +13297,7 @@ snapshots:
 
   '@excalidraw/common@0.18.0-abeeaeb':
     dependencies:
+      '@excalidraw/math': 0.18.0-abeeaeb
       tinycolor2: 1.6.0
 
   '@excalidraw/element@0.18.0-abeeaeb':

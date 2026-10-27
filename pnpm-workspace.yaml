@@ -3,6 +3,9 @@ packages:
   - 'docs'
 
 packageExtensions:
+  '@excalidraw/common@0.18.0-abeeaeb':
+    dependencies:
+      '@excalidraw/math': '0.18.0-abeeaeb'
   '@excalidraw/excalidraw@0.18.0-abeeaeb':
     dependencies:
       '@excalidraw/fractional-indexing': '0.18.0-abeeaeb'
